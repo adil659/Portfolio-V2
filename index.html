@@ -10,10 +10,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Template</title>
+    <title>Adil Ughratdar</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body id="body">
     <nav class="navbar">
         <div class="header__title">
             <h1>Adil Ughratdar</h1>
@@ -45,7 +45,10 @@
             <div class="introduction__info">
                 <img src="./img/headshot.jpg" alt="headshot" />
                 <h1>Adil Ughratdar</h1>
-                <h3>Junior Developer</h3>
+                <div>
+                    <span class="type"></span>
+                </div>
+                <hr class="star__light">⭐</hr>
                 <h5>Computer Engineering student at the University of Ottawa. Have a passion for programming, have a
                     look at some of my
                     projects!
@@ -53,48 +56,222 @@
             </div>
 
         </section>
+        <!-- The Modal -->
+        <div id="project1__modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal__topbar">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="content">
+                    <img src="./img/acreeye.PNG">
+                    <div>
+                        <p>
+                            Complete for our capstone project, AcreEye is a way for farmers to keep track of their
+                            crops.
+                            It provides a dashboard for farmers to get the latest information on their land. We have a
+                            drone
+                            that collects data such as temperature, moisture, and humidity levels and identifies crop
+                            health
+                            through a NDVI camera.
+                        </p>
+                        <ul>
+                            <li>Created python script to take photos and sensor data that is sent to our database</li>
+                            <li>Created dashboard using html, css, bootstrap</li>
+                            <li>Used CanvasJs to display data in a more appealing way</li>
+                        </ul>
+                        <div class="content__buttons">
+                            <a type="button" class="btn btn-secondary">Source Code</a>
+                            <a type="button" class="btn btn-secondary" href="https://acreeye.web.app/"
+                                target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="project1__modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal__topbar">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="content">
+                    <img src="./img/resume_tracker.PNG">
+                    <div>
+                        <p>
+                            Resume tracker was made as a way for myself and fellow students to keep track of all their
+                            job applications.
+                            It's purpose is to be organized and have an all in one place to see where you've applied
+                            so far.
+                        </p>
+                        <ul>
+                            <li>Created login system, users can see their own information</li>
+                            <li>Users can create categories to know which term a position is for</li>
+                            <li>Users can update their posts as they get notified on the status of their application
+                            </li>
+
+                        </ul>
+                        <p>
+                            For testing purposes, use:<br>
+                            test@gmail.com <br>
+                            adil1234
+                        </p>
+                        <div class="content__buttons">
+                            <a type="button" class="btn btn-secondary">Source Code</a>
+                            <a type="button" class="btn btn-secondary"
+                                href="https://resume-tracker-954e8.web.app/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="project1__modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal__topbar">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="content">
+                    <img src="./img/theshoppies.PNG">
+                    <div>
+                        <p>Find your favourite movies, view the details for each movie. Nominate your top 5!</p>
+                        <ul>
+                            <li>When user searches for a movie, an Api request is made and the results are populated
+                            </li>
+                            <li>When clicking on a movie, the movie id is used to fetch all of its details</li>
+                            <li>Can nominate upto 5 of your favourite movies, can un-nominate if you decide to change
+                                your mind</li>
+                        </ul>
+                        <div class="content__buttons">
+                            <a type="button" class="btn btn-secondary">Source Code</a>
+                            <a type="button" class="btn btn-secondary"
+                                href="https://theshoppies-7b17c.web.app/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="project1__modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal__topbar">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="content">
+                    <img src="./img/whatsapp.PNG">
+                    <div>
+                        <p>A clone of whatsapp.</p>
+                        <ul>
+                            <li>Used Google Authentication to provide a safe and secure login system</li>
+                            <li>Can create rooms and send messages in them</li>
+                            <li>Created Firebase subcollections for messages. So messages are associated with rooms</li>
+                        </ul>
+                        <div class="content__buttons">
+                            <a type="button" class="btn btn-secondary">Source Code</a>
+                            <a type="button" class="btn btn-secondary"
+                                href="https://whatsapp-clone-reactjs-318c3.web.app">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="project1__modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal__topbar">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="content">
+                    <img src="./img/instagram.PNG">
+                    <div>
+                        <p>Clone of instagram.</p>
+                        <ul>
+                            <li>Used Firebase Storage to upload images and display them</li>
+                            <li>Users can comment on posts</li>
+                            <li>Frontend made using ReactJs, Html, Css</li>
+                        </ul>
+                        <div class="content__buttons">
+                            <a type="button" class="btn btn-secondary">Source Code</a>
+                            <a type="button" class="btn btn-secondary"
+                                href="https://instagram-clone-reactjs-787b2.web.app/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project1__modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal__topbar">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="content">
+                    <img src="./img/messenger.PNG">
+                    <div>
+                        <p>Clone of messenger. Only frontend. This is way to showcase my frontend skills</p>
+                        <ul>
+                            <li>Made using HTML and CSS</li>
+                            <li>Used MaterialUI, Flexbox to make it as close as possible to Facebook Messenger</li>
+                        </ul>
+                        <div class="content__buttons">
+                            <a type="button" class="btn btn-secondary">Source Code</a>
+                            <a type="button" class="btn btn-secondary"
+                                href="https://messenger-reactjs-c8305.web.app/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="section__projects">
             <h2>Projects</h2>
 
             <div class="projects">
-                <div class="project__card">
-                    <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
-                    <h2>Chore tracker</h2>
-                    <h4>Android app to keep track of all chores</h4>
+                <div class="project__card" id="project1__card">
+                    <img src="./img/acreeye.PNG">
+                    <h2>AcreEye</h2>
+                    <p>ReactJs + Python + CanvasJs</p>
                 </div>
 
-                <div class="project__card">
-                    <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
-                    <h2>Chore tracker</h2>
-                    <h4>Android app to keep track of all chores</h4>
+                <div class="project__card" id="project2__card">
+                    <img src="./img/resume_tracker.PNG">
+                    <h2>Job Tracker</h2>
+                    <p>ReactJs + Redux + Firebase</p>
                 </div>
 
-                <div class="project__card">
-                    <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
-                    <h2>Chore tracker</h2>
-                    <h4>Android app to keep track of all chores</h4>
+                <div class="project__card" id="project3__card">
+                    <img src="./img/theshoppies.PNG">
+                    <h2>The Shoppies</h2>
+                    <p>ReactJs + Firebase + OmdbApi</p>
                 </div>
 
-                <div class="project__card">
-                    <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
-                    <h2>Chore tracker</h2>
-                    <h4>Android app to keep track of all chores</h4>
+                <div class="project__card" id="project4__card">
+                    <img src="./img/whatsapp.PNG">
+                    <h2>Whatsapp Clone</h2>
+                    <p>ReactJs + Firebase Auth + MaterialUI</p>
                 </div>
 
-                <div class="project__card">
-                    <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
-                    <h2>Chore tracker</h2>
-                    <h4>Android app to keep track of all chores</h4>
+                <div class="project__card" id="project5__card">
+                    <img src="./img/instagram.PNG">
+                    <h2>Instagram Clone</h2>
+                    <p>ReactJs + Firebase Storage + Context Api</p>
                 </div>
 
-                <div class="project__card">
-                    <img src="https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
-                    <h2>Chore tracker</h2>
-                    <h4>Android app to keep track of all chores</h4>
+                <div class="project__card" id="project6__card">
+                    <img src="./img/messenger.PNG">
+                    <h2>Messenger Clone</h2>
+                    <p>ReactJs + HTML + CSS</p>
                 </div>
             </div>
-            
+
         </section>
 
         <!-- <section class="section__achievements">
@@ -105,8 +282,60 @@
         <h1>Welcome to my site!</h1>
     </section> -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
+    <script>
+        var typed = new Typed('.type', {
+            strings: [
+                'Hackathon Enthusiast^700',
+                'Tinkerer^700',
+                'Entrepreneur^700',
+                'Junior Developer^700'
+            ],
+            typeSpeed: 40,
+            backSpeed: 40,
+            startDelay: 700,
+            showCursor: true,
+            cursorChar: ' .',
+            autoInsertCss: true,
+            loop: false,
+            loopCount: Infinity,
+        });
+        // Get the modal
+        var modals = document.getElementsByClassName("modal");
 
+        var body = document.getElementById("body")
+        // Get the button that opens the modal
+        var btns = document.getElementsByClassName("project__card");
+
+        // Get the <span> element that closes the modal
+        var spans = document.getElementsByClassName("close");
+
+        // When the user clicks the button, open the modal 
+        for (let i = 0; i < btns.length; i++) {
+            btns[i].onclick = function () {
+                modals[i].style.display = "flex";
+                body.style.overflow = 'hidden'
+            }
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        for (let i = 0; i < spans.length; i++) {
+            spans[i].onclick = function () {
+                modals[i].style.display = "none";
+                body.style.overflow = 'auto'
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            console.log(event.target.classList)
+            if (event.target.classList[0] == 'modal') {
+                event.target.style.display = "none";
+                body.style.overflow = 'auto'
+            }
+        }
+    </script>
 </body>
 
 </html>
