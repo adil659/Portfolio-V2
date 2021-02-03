@@ -62,7 +62,8 @@ nav {
 .introduction__info > img {
     width: 300px;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 51%;
+
 }
 
 .introduction__info > h1 {
