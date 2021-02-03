@@ -59,6 +59,12 @@ nav {
     justify-content: center;
 }
 
+.introduction__info > img {
+    width: 300px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
 .introduction__info > h1 {
     font-size: 60px;
 }
